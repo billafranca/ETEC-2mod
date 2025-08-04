@@ -1,0 +1,72 @@
+body {
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#textName {
+    background-color: lightblue;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.2s ease-in-out;
+    border-radius: 10px;
+}
+
+#textName:hover {
+    transform: scale(1.1);
+}
+
+#secaoImagens {
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    margin-right: 40px;
+    top: 50%;
+    left: 17%;
+    transform: translate(-50% -50%);
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    border-radius: 100px;
+    transform: all 0.5s ease-in-out;
+}
+img:hover{
+    transform: scale(0.5);
+}
+
+#listaOrg {
+    position: absolute;
+    top: 100%;
+    left: 20%;
+}
+
+#listaDesorg {
+    position: absolute;
+    top: 100%;
+    left: 60%;
+}
+
+#botaoNome {
+    background-color: greenyellow;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+#botaoNome:hover{
+    transform: scale(1.3);
+}
+
+
+#tabela {
+    position: absolute;
+    top: 150%;
+    left: 37%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
