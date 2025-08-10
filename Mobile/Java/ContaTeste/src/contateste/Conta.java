@@ -30,7 +30,7 @@ public class Conta {
                     JOptionPane.showMessageDialog(null, "Senha não permitida! Tentativa " + tentativas + " de 3.");
                 }
             } catch (NumberFormatException e) {
-                JOptionPane.showMessageDialog(null, "Digite apenas números!");
+                JOptionPane.showMessageDialog(null, "Digite apenas números");
             }
         }
 
@@ -43,11 +43,11 @@ public class Conta {
     public void sacar(double valor){ 
 
         if(valor > saldo){
-            JOptionPane.showMessageDialog(null, "saldo insuficiente! ");
+            JOptionPane.showMessageDialog(null, "saldo insuficiente  ");
             
     } else{
             saldo -= valor;
-            JOptionPane.showMessageDialog(null, "saque realizado com sucesso! ");
+            JOptionPane.showMessageDialog(null, "saque realizado com sucesso  ");
                     }
         }
 
@@ -58,7 +58,7 @@ public class Conta {
         }
         else {
             saldo += valor;
-            JOptionPane.showMessageDialog(null, "depósito realizado com sucesso!");
+            JOptionPane.showMessageDialog(null, "depósito realizado com sucesso ");
         }
     }
     

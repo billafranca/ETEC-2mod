@@ -29,7 +29,7 @@ public class ContaTeste {
         pedrao.depositar(sc.nextDouble());
         pedrao.exibirSaldo();
 
-        JOptionPane.showInputDialog(null, " insira quanto deseja transferir: ");
+        JOptionPane.showInputDialog(null, " insira o valor da transferência: ");
         pedrao.transferir(andrezudo, (sc.nextDouble()));
         pedrao.exibirSaldo();
         sc.close();
