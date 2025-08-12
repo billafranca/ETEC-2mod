@@ -1,0 +1,41 @@
+Mercado de TI no Brasil e no Mundo
+
+
+Segurança Cibernética:
+
+Mesmo em meio a um cenário em que há uma crescente no índice de ataques cibernéticos e prejuisos enfrentados por
+empresas que depende do intenet para operarem, uma das principais áreas que se encontram em situação de escassez
+profissional é a área de segurança da informação.
+
+Segundo o Relatório de custo de uma violação de dados da IBM, o custo total médio de uma violação de dados
+atingiu um patamar de USD 4,45 milhões em 2023 - o que é uma crescente em relação aos anos anteriores. Já a
+Cybersecurity Ventures projetou que os custo com cibercrimes cheguem a mais de US$ 10,5 trilhões por ano. Por esse
+motivo, cerca de 51% das organizações afiramram planejar aumentar o investimento nessa área. Com esse aumento
+constante de vagas disponíveis, o Bureau of Labor Statistics prevê que vagas para analistas de segurança da
+informação crescerá 32% até 2032. Mas mesmo atualmente, no mercado brasileiro houve um investimento de R$ 21
+bilhões em cibersegurança em 2023.
+(https://www.ibm.com/br-pt/topics/information-security)
+(https://www.knowledgehut.com/blog/security/importance-of-cyber-security?)
+(https://www.computerweekly.com/br/reportagen/Seguranca-da-informacao-ganha-cada-vez-mais-importancia-no-mercado-de-TI-no-Brasil?)
+
+De acordo com um artigo da Universidade de Tulsa, um setor sofre um ataque cibernético a cada 11 segundos, e no ano
+de 2023, a lacuna de profissionais disponíveis e necessitados aumentou em 12%. No mês de Julho de 2024, ocorreram
+de 40 mil a 50 mil ataques DDoS por dia - o artigo também dá ênfase a importância da cibersegurança para nossa
+segurança pessoal também - sendo 94% dos malwares e 40% das ameaças de phishing distribuidos via email. Esses
+são projetados para sofrerem um aumento ainda mais agravante. Um exemplo aplicado desses dados ocorreu em 2025,
+quando a Universidade de Columbia sofreu uma violação que expôs mais de 900 mil dados de alumni - incluindo dados
+médicos, financeiros, pessoais, e entre outros.
+(https://www.tomsguide.com/computing/online-security/almost-900-000-students-and-alumni-hit-in-major-college-data-breach-financial-aid-info-social-security-numbers-and-more-exposed?)
+(https://online.utulsa.edu/blog/why-is-cybersecurity-important/)
+
+Tendo em vista o cenário em que esse mercado está, entendemos que é importante a consideração dos problemas de
+escassez que ele sofre - principalmente no Brasil.
+
+
+Inteligência Artificial (IA) e Machine Learning:
+
+O mercado de IA (Inteligência Artificial) no Brasil - e no mundo - é um mercado considerado recente; sendo um dos
+que mais requisitam profissionais no momento. Mesmo sendo um tema que está presente não só no cotidiano dos
+especilistas em TI, mas sim em diversos setores, o mercado de IA é um dos que menos possuí profissionais
+qualificados.
+
