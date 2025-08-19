@@ -1,0 +1,14 @@
+{
+  "name": "qrcode-generator",
+  "version": "1.0.0",
+  "description": "A simple QR code generator application.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "dependencies": {
+    "qrcode": "^1.4.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
