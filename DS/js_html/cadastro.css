@@ -36,3 +36,9 @@ body{
     background-color: aquamarine;
     color: black;
 }
+
+nav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 43%;
+}
