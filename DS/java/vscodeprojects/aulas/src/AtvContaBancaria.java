@@ -20,6 +20,7 @@ public class AtvContaBancaria{
         int agencia = sc.nextInt();
         System.out.println("número da agência bancária: " + agencia);
 
+        sc.nextLine();
 
         System.out.println("insira seu nome: ");
         String nomeCliente = sc.nextLine();
