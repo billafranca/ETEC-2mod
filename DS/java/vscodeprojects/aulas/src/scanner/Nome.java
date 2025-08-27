@@ -9,6 +9,10 @@ public class Nome {
         System.out.print("digite seu nome: ");
         String nome = sc.nextLine();
         System.out.println("olá, " + nome + "!");
+
+
+        sc.close();
+        
     }
 
 

@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b8f79b5-f554-4fb7-a8e3-93d37bb87d60" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java/vscodeprojects/aulas/src/scanner/Nome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/vscodeprojects/vscodeprojects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/vscodeprojects/aulas/src/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/vscodeprojects/aulas/src/AtvContaBancaria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/vscodeprojects/aulas/src/CalcularArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/vscodeprojects/aulas/src/CalcularArea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/vscodeprojects/aulas/src/NumeroPrimo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/vscodeprojects/aulas/src/OperadorResto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/vscodeprojects/aulas/src/OperadoresAritimeticos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/vscodeprojects/aulas/src/Ternario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/vscodeprojects/aulas/src/Ternario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/vscodeprojects/aulas/src/TiposDeDados.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aulas/AtvContaBancaria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aulas/NumeroPrimo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aulas/OperadorResto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aulas/OperadoresAritimeticos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aulas/TiposDeDados.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/vscodeprojects/aulas/src/scanner/Nome.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/vscodeprojects/aulas/src/scanner/Nome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AtvContaBancaria.executor": "Run",
     "Application.Nome.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
