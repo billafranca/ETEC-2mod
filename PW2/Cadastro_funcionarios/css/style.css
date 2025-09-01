@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(135deg, lightblue, white);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+  form {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+  }
+
+  input {
+    padding: 8px;
+    margin: 5px;
+  }
+
+  button {
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: lightgreen;
+    color: black;
+    border: 1px solid black;
+    transition: all 0.5s ease-in-out;
+    border-radius: 6px;
+  }
+  button:hover{
+    transform: scale(1.1);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+
+  .acoes button {
+    margin: 0 5px;
+  }
+
+  .erro {
+    color: red;
+    margin-bottom: 10px;
+  }
