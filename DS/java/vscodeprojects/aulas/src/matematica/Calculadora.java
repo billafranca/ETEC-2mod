@@ -1,146 +1,123 @@
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class Calculadora {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        String menu = "O que deseja calcular?\n" +
+                "1 - Soma\n2 - Subtração\n3 - Multiplicação\n" +
+                "4 - Potenciação\n5 - Área do Quadrado\n6 - Área do Retângulo\n" +
+                "7 - Área do Triângulo\n8 - Área do Círculo\n9 - Volume do Cone\n" +
+                "10 - Volume do Cubo\n11 - Fórmula Quadrática";
 
-        System.out.println("O que deseja calcular?\n1 - Soma\n2 - Subtração\n3 - Multiplicação\n" +
-                "4 - Potenciação\n5 - Área do Quadrado\n6 - Área do Retângulo\n7 - Área do Triângulo\n 8 -" +
-                " Área do Circulo\n9 - Volume do Cone\n10 - Volume do Cubo\n11 - Fórmula Quadrática");
-        int escolha = scanner.nextInt();
+        int escolha = Integer.parseInt(JOptionPane.showInputDialog(menu));
 
         switch (escolha) {
             case 1 -> {
-                System.out.println("Termo 1: ");
-                double a = scanner.nextDouble();
-                System.out.println("Termo 2: ");
-                double b = scanner.nextDouble();
-                System.out.println("Resultado: " + somar(a, b));
-                break;
+                double a = Double.parseDouble(JOptionPane.showInputDialog("Termo 1:"));
+                double b = Double.parseDouble(JOptionPane.showInputDialog("Termo 2:"));
+                JOptionPane.showMessageDialog(null, "Resultado: " + somar(a, b));
             }
             case 2 -> {
-                System.out.println("Termo 1: ");
-                double a = scanner.nextDouble();
-                System.out.println("Termo 2: ");
-                double b = scanner.nextDouble();
-                System.out.println("Resultado: " + subtrair(a, b));
-                break;
+                double a = Double.parseDouble(JOptionPane.showInputDialog("Termo 1:"));
+                double b = Double.parseDouble(JOptionPane.showInputDialog("Termo 2:"));
+                JOptionPane.showMessageDialog(null, "Resultado: " + subtrair(a, b));
             }
             case 3 -> {
-                System.out.println("Termo 1: ");
-                double a = scanner.nextDouble();
-                System.out.println("Termo 2: ");
-                double b = scanner.nextDouble();
-                System.out.println("Resultado: " + multiplicar(a, b));
-                break;
+                double a = Double.parseDouble(JOptionPane.showInputDialog("Termo 1:"));
+                double b = Double.parseDouble(JOptionPane.showInputDialog("Termo 2:"));
+                JOptionPane.showMessageDialog(null, "Resultado: " + multiplicar(a, b));
             }
             case 4 -> {
-                System.out.println("Base: ");
-                double a = scanner.nextDouble();
-                System.out.println("Expoente: ");
-                double b = scanner.nextDouble();
-                System.out.println("Resultado: " + elevar(a, b));
-                break;
+                double a = Double.parseDouble(JOptionPane.showInputDialog("Base:"));
+                double b = Double.parseDouble(JOptionPane.showInputDialog("Expoente:"));
+                JOptionPane.showMessageDialog(null, "Resultado: " + elevar(a, b));
             }
             case 5 -> {
-                System.out.println("Lado: ");
-                double a = scanner.nextDouble();
-                System.out.println("Resultado: " + areaQuadrado(a) + "u^2");
-                break;
+                double a = Double.parseDouble(JOptionPane.showInputDialog("Lado:"));
+                JOptionPane.showMessageDialog(null, "Resultado: " + areaQuadrado(a) + "u^2");
             }
             case 6 -> {
-                System.out.println("Base: ");
-                double a = scanner.nextDouble();
-                System.out.println("Altura: ");
-                double b = scanner.nextDouble();
-                System.out.println("Resultado: " + areaRetangulo(a, b));
-                break;
+                double a = Double.parseDouble(JOptionPane.showInputDialog("Base:"));
+                double b = Double.parseDouble(JOptionPane.showInputDialog("Altura:"));
+                JOptionPane.showMessageDialog(null, "Resultado: " + areaRetangulo(a, b));
             }
             case 7 -> {
-                System.out.println("Base: ");
-                double a = scanner.nextDouble();
-                System.out.println("Altura: ");
-                double b = scanner.nextDouble();
-                System.out.println("Resultado: " + areaTriangulo(a, b));
-                break;
+                double a = Double.parseDouble(JOptionPane.showInputDialog("Base:"));
+                double b = Double.parseDouble(JOptionPane.showInputDialog("Altura:"));
+                JOptionPane.showMessageDialog(null, "Resultado: " + areaTriangulo(a, b));
             }
             case 8 -> {
-                System.out.println("Raio: ");
-                double a = scanner.nextDouble();
-                System.out.println("Resultado: " + areaCirculo(a));
-                break;
+                double a = Double.parseDouble(JOptionPane.showInputDialog("Raio:"));
+                JOptionPane.showMessageDialog(null, "Resultado: " + areaCirculo(a));
             }
             case 9 -> {
-                System.out.println("Raio: ");
-                double a = scanner.nextDouble();
-                System.out.println("Altura: ");
-                double b = scanner.nextDouble();
-                System.out.println("Resultado: " + volumeCone(a, b));
-                break;
+                double a = Double.parseDouble(JOptionPane.showInputDialog("Raio:"));
+                double b = Double.parseDouble(JOptionPane.showInputDialog("Altura:"));
+                JOptionPane.showMessageDialog(null, "Resultado: " + volumeCone(a, b));
             }
             case 10 -> {
-                System.out.println("Lado: ");
-                double a = scanner.nextDouble();
-                System.out.println("Resultado: " + volumeCubo(a));
-                break;
+                double a = Double.parseDouble(JOptionPane.showInputDialog("Lado:"));
+                JOptionPane.showMessageDialog(null, "Resultado: " + volumeCubo(a));
             }
             case 11 -> {
-                System.out.println("a: ");
-                double a = scanner.nextDouble();
-                System.out.println("b: ");
-                double b = scanner.nextDouble();
-                System.out.println("c: ");
-                double c = scanner.nextDouble();
-                System.out.println("Resultado: " + quadratica(a, b, c));
-                break;
+                double a = Double.parseDouble(JOptionPane.showInputDialog("a:"));
+                double b = Double.parseDouble(JOptionPane.showInputDialog("b:"));
+                double c = Double.parseDouble(JOptionPane.showInputDialog("c:"));
+                JOptionPane.showMessageDialog(null, "Resultado:\n" + quadratica(a, b, c));
             }
         }
-
-        scanner.close();
     }
 
     public static double somar(double n, double k) {
         return n + k;
     }
+
     public static double subtrair(double n, double k) {
         return n - k;
     }
+
     public static double multiplicar(double n, double k) {
         return n * k;
     }
+
     public static double elevar(double n, double k) {
         return Math.pow(n, k);
     }
+
     public static double areaQuadrado(double l) {
         return Math.pow(l, 2);
     }
+
     public static double areaRetangulo(double n, double k) {
         return n * k;
     }
+
     public static double areaTriangulo(double l, double h) {
         return (l * h) / 2;
     }
+
     public static double areaCirculo(double r) {
         return (Math.PI * Math.pow(r, 2));
     }
+
     public static double volumeCone(double r, double h) {
-        return ((Math.PI * Math.pow(r, 2)) * 3) / 3;
+        return ((Math.PI * Math.pow(r, 2)) * h) / 3;
     }
+
     public static double volumeCubo(double l) {
         return Math.pow(l, 3);
     }
+
     public static String quadratica(double a, double b, double c) {
         double x1, x2;
         String retorno;
         double delta = Math.pow(b, 2) - (4 * a * c);
         if (delta < 0) {
-            retorno = -b + " +- √" + -(delta) + "i / " + 2 * a;
-            return retorno;
+            retorno = -b + " ± √" + -(delta) + "i / " + (2 * a);
         } else {
             x1 = ((-b) + Math.sqrt(delta)) / (2 * a);
             x2 = ((-b) - Math.sqrt(delta)) / (2 * a);
             retorno = "x1 = " + x1 + "\nx2 = " + x2;
-            return retorno;
         }
+        return retorno;
     }
 }
