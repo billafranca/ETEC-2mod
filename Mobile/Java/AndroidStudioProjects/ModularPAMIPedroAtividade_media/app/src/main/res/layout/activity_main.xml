@@ -3,12 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:padding="20px"
+    android:background="#F0EBAF"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/nota_um"
+
+    <TextView android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:fontFamily="serif"
+        android:text="Cálculo de média"
+        android:textColor="#DCC024"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"/>
+
+    <EditText android:id="@+id/nota_um"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="60dp"
@@ -21,44 +38,49 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <EditText
-        android:id="@+id/nota_dois"
+    <EditText android:id="@+id/nota_dois"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="60dp"
         android:backgroundTint="#D5BD0B"
         android:fontFamily="serif"
         android:hint="nota 2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
+        app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nota_um" />
+        app:layout_constraintTop_toBottomOf="@+id/nota_um"
+        app:layout_constraintVertical_bias="0.0" />
 
-    <EditText
-        android:id="@+id/nota_tres"
+    <EditText android:id="@+id/nota_tres"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="60dp"
         android:backgroundTint="#D5BD0B"
         android:fontFamily="serif"
         android:hint="nota 3"
+        app:layout_constraintBottom_toBottomOf="parent"
+
         app:layout_constraintEnd_toEndOf="parent"
-
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/nota_dois" />
+        app:layout_constraintTop_toBottomOf="@id/nota_dois"
+        app:layout_constraintVertical_bias="0.0" />
 
-    <EditText
-        android:id="@+id/nota_quatro"
+    <EditText android:id="@+id/nota_quatro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="60dp"
         android:backgroundTint="#D5BD0B"
         android:fontFamily="serif"
         android:hint="nota 4"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
 
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.394"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nota_tres" />
+        app:layout_constraintTop_toBottomOf="@+id/nota_tres"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText android:id="@+id/n_faltas"
         android:layout_width="match_parent"
@@ -67,13 +89,15 @@
         android:backgroundTint="#D5BD0B"
         android:fontFamily="serif"
         android:hint="(n) de faltas"
+        app:layout_constraintBottom_toBottomOf="parent"
+
         app:layout_constraintEnd_toEndOf="parent"
-
+        app:layout_constraintHorizontal_bias="0.378"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nota_quatro" />
+        app:layout_constraintTop_toBottomOf="@+id/nota_quatro"
+        app:layout_constraintVertical_bias="0.0" />
 
-    <Button
-        android:id="@+id/b_calcular"
+    <Button android:id="@+id/b_calcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="60dp"
@@ -81,12 +105,25 @@
         android:fontFamily="serif"
         android:text="calcular"
         android:textColorHint="#D5BD0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/n_faltas"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView android:id="@+id/txt_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/n_faltas"/>
-
-
-
+        app:layout_constraintTop_toBottomOf="@+id/b_calcular" />
 
 
 
