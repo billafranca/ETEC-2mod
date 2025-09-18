@@ -1,7 +1,8 @@
 // metodo raramente utilizado = finalize() //
 
+import java.lang.Object;
 public class Destrutor {
-    protected void finalize() {
+    protected void finalize() throws Throwable {
         System.out.println("Objeto removido pelo Garbage Collector");
     }
 
@@ -9,6 +10,8 @@ public class Destrutor {
         Destrutor dest = new Destrutor();
         dest = null;
         System.gc();
+
+
     }
 
 }
