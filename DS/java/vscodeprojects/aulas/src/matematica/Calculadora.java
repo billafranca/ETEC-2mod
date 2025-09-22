@@ -11,54 +11,60 @@ public class Calculadora {
         int escolha = Integer.parseInt(JOptionPane.showInputDialog(menu));
 
         switch (escolha) {
-            case 1 -> {
+            if(escolha == 1) {
+
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Termo 1:"));
                 double b = Double.parseDouble(JOptionPane.showInputDialog("Termo 2:"));
-                JOptionPane.showMessageDialog(null, "Resultado: " + somar(a, b));
+
+                while (Double.isNaN(a)){
+                    JOptionPane.showMessageDialog(null, "digite apenas números! tente novamente");
+
+                }
+                JOptionPane.showMessageDialog(null, somar(a, b))
             }
-            case 2 -> {
+            if(escolha == 2) {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Termo 1:"));
                 double b = Double.parseDouble(JOptionPane.showInputDialog("Termo 2:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + subtrair(a, b));
             }
-            case 3 -> {
+            if(escolha == 3) {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Termo 1:"));
                 double b = Double.parseDouble(JOptionPane.showInputDialog("Termo 2:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + multiplicar(a, b));
             }
-            case 4 -> {
+            if(escolha == 4) {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Base:"));
                 double b = Double.parseDouble(JOptionPane.showInputDialog("Expoente:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + elevar(a, b));
             }
-            case 5 -> {
+            if(escolha == 5) {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Lado:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + areaQuadrado(a) + "u^2");
             }
-            case 6 -> {
+            if(escolha == 6) {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Base:"));
                 double b = Double.parseDouble(JOptionPane.showInputDialog("Altura:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + areaRetangulo(a, b));
             }
-            case 7 -> {
+            if(escolha == 7) {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Base:"));
                 double b = Double.parseDouble(JOptionPane.showInputDialog("Altura:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + areaTriangulo(a, b));
             }
-            case 8 -> {
+            if(escolha == 8) {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Raio:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + areaCirculo(a));
             }
-            case 9 -> {
+            if(escolha == 9) {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Raio:"));
                 double b = Double.parseDouble(JOptionPane.showInputDialog("Altura:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + volumeCone(a, b));
             }
-            case 10 -> {
+            if(escolha == 10) {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Lado:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + volumeCubo(a));
             }
-            case 11 -> {
+            if(escolha == 11) {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("a:"));
                 double b = Double.parseDouble(JOptionPane.showInputDialog("b:"));
                 double c = Double.parseDouble(JOptionPane.showInputDialog("c:"));
