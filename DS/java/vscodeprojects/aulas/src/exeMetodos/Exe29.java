@@ -5,9 +5,11 @@ public class Exe29 {
     private String som;
 
     private void setTipo(String tipo){
+
         this.tipo = tipo;
     }
     private String getTipo(){
+
         return tipo;
     }
     private void setSom(String som){
