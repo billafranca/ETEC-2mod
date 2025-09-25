@@ -11,65 +11,72 @@ public class Calculadora {
         int escolha = Integer.parseInt(JOptionPane.showInputDialog(menu));
 
         switch (escolha) {
-            if(escolha == 1) {
-
+            case 1: {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Termo 1:"));
                 double b = Double.parseDouble(JOptionPane.showInputDialog("Termo 2:"));
-
-                while (Double.isNaN(a)){
-                    JOptionPane.showMessageDialog(null, "digite apenas números! tente novamente");
-
-                }
-                JOptionPane.showMessageDialog(null, somar(a, b))
+                JOptionPane.showMessageDialog(null, "Resultado: " + somar(a, b));
+                break;
             }
-            if(escolha == 2) {
+            case 2: {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Termo 1:"));
                 double b = Double.parseDouble(JOptionPane.showInputDialog("Termo 2:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + subtrair(a, b));
+                break;
             }
-            if(escolha == 3) {
+            case 3: {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Termo 1:"));
                 double b = Double.parseDouble(JOptionPane.showInputDialog("Termo 2:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + multiplicar(a, b));
+                break;
             }
-            if(escolha == 4) {
+            case 4: {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Base:"));
                 double b = Double.parseDouble(JOptionPane.showInputDialog("Expoente:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + elevar(a, b));
+                break;
             }
-            if(escolha == 5) {
+            case 5: {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Lado:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + areaQuadrado(a) + "u^2");
+                break;
             }
-            if(escolha == 6) {
+            case 6: {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Base:"));
                 double b = Double.parseDouble(JOptionPane.showInputDialog("Altura:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + areaRetangulo(a, b));
+                break;
             }
-            if(escolha == 7) {
+            case 7: {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Base:"));
                 double b = Double.parseDouble(JOptionPane.showInputDialog("Altura:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + areaTriangulo(a, b));
+                break;
             }
-            if(escolha == 8) {
+            case 8: {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Raio:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + areaCirculo(a));
+                break;
             }
-            if(escolha == 9) {
+            case 9: {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Raio:"));
                 double b = Double.parseDouble(JOptionPane.showInputDialog("Altura:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + volumeCone(a, b));
+                break;
             }
-            if(escolha == 10) {
+            case 10: {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("Lado:"));
                 JOptionPane.showMessageDialog(null, "Resultado: " + volumeCubo(a));
+                break;
             }
-            if(escolha == 11) {
+            case 11: {
                 double a = Double.parseDouble(JOptionPane.showInputDialog("a:"));
                 double b = Double.parseDouble(JOptionPane.showInputDialog("b:"));
                 double c = Double.parseDouble(JOptionPane.showInputDialog("c:"));
                 JOptionPane.showMessageDialog(null, "Resultado:\n" + quadratica(a, b, c));
+                break;
             }
+            default:
+                JOptionPane.showMessageDialog(null, "Opção inválida.");
         }
     }
 

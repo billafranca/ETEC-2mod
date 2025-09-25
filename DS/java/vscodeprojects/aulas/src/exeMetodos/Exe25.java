@@ -14,9 +14,9 @@ public class Exe25 {
         Exe25 ex = new Exe25();
 
 
-        ex.exibirCaractere('a');
-        ex.exibirCaractere('l');
         ex.exibirCaractere('o');
+        ex.exibirCaractere('l');
+        ex.exibirCaractere('a');
 
 
         ex.exibirCaractere("mundo");
