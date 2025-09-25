@@ -18,11 +18,13 @@ class Nota:
     def exibir(self):
         if self.deseja_nota == "s":
             horario = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+            print("=== NOTA FISCAL ===")
             print("Compra aprovada")
             print(f"\nProduto: {self.produto.nome}")
             print(f"\nPreço: R${self.produto.preco:.2f}")
             print("\nLocal da compra: São Paulo")
             print(f"\nHorário da compra: {horario}")
+            print("===  ===")
         elif self.deseja_nota == "n":
             print("\nOpção escolhida: não desejo receber nota.")
         else:
