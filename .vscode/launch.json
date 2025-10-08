@@ -4,7 +4,41 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "Exe18",
+            "request": "launch",
+            "mainClass": "exeMetodos.Exe18",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Exe19",
+            "request": "launch",
+            "mainClass": "exeMetodos.Exe19",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Exe27",
+            "request": "launch",
+            "mainClass": "exeMetodos.Exe27",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Exe39",
+            "request": "launch",
+            "mainClass": "exeMetodos.Exe39",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Exe40",
+            "request": "launch",
+            "mainClass": "exeMetodos.Exe40",
+            "projectName": ""
+        },
         {
             "type": "node",
             "request": "launch",

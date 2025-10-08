@@ -11,7 +11,7 @@ public class Exe19 {
     public static void main(String[] args) {
         Exe19 ex = new Exe19();
         String um, dois;
-        um = ex.concatenando("olá ");
+        um = ex.concatenando("olá, ");
         dois = ex.concatenando2(" mundo! ");
         System.out.println(um + dois);
     }
