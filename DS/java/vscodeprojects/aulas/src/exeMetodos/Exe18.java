@@ -7,7 +7,7 @@ public class Exe18 {
 
     public static void main(String[] args) {
         Exe18 ex = new Exe18();
-        double exibir = ex.exibirDobro(8);
-        System.out.println("o dobro é: " + exibir);
+        double exibir = ex.exibirDobro(12);
+        System.out.println("o dobro é " + exibir);
     }
 }
