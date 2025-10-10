@@ -7,8 +7,8 @@ class Animal:
         print(f"Raça: {self.raca}\nSom: {self.som}")
 
 
-raca = input("Digite a raça do animal: ")
-som = input("Digite o som que o animal faz: ")
+raca = input("insira a raça do animal: ")
+som = input("insria o som que o animal faz: ")
 
 
 cachorro = Animal(raca, som)
