@@ -93,6 +93,7 @@
         android:fontFamily="serif"
         android:drawableStart="@drawable/outline_admin_panel_settings_24"
         android:text="  Senha"
+
         android:textColor="#1b1bcc"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -107,6 +108,7 @@
         android:layout_width="260dp"
         android:layout_height="48dp"
         android:hint="ex: teste123"
+        android:inputType="textPassword"
         android:textAlignment="center"
         android:textColorHint="#7979B1"
         app:cornerRadius='5dp'
