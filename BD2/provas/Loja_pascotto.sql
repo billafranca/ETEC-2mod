@@ -38,10 +38,10 @@ ALTER TABLE Produtos ADD id_categoria INT;
 ALTER TABLE Produtos ADD FOREIGN KEY (id_categoria) REFERENCES categoria(id);
 
 
-INSERT INTO Produtos (nome, preco, estoque) VALUES
-    ('Mouse', '24.00', '120'),
-    ('Teclado', '33.00', '200'),
-    ('Monitor', '120.00', '120');
+INSERT INTO Produtos (nome, preco, estoque, id_categoria) VALUES
+    ('Mouse', '24.00', '120',1),
+    ('Teclado', '33.00', '200',1),
+    ('Monitor', '120.00', '120',1);
     
 SELECT * FROM Produtos;
 
