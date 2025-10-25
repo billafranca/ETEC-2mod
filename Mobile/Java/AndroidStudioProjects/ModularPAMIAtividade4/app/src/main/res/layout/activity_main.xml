@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#E0CB69"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView android:id="@+id/txt_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:text="Login"
+        android:textSize="56dp"
+        android:textColor="#0733D0"
+        />
+    <EditText android:id="@+id/edt_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#0733D0"
+        android:background="#EFE3B3"
+        android:drawableStart="@drawable/outline_account_circle_24"
+        android:padding="15dp"
+        app:cornerRadius="5dp"
+        android:hint=" insira seu nome"
+        android:layout_margin="20dp"/>
+
+    <EditText android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#0733D0"
+        android:background="#EFE3B3"
+        app:cornerRadius="5dp"
+        android:padding="15dp"
+        android:drawableStart="@drawable/outline_attach_email_24"
+        android:hint=" insira seu email"
+        android:layout_margin="20dp"/>
+
+    <EditText android:id="@+id/edt_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#0733D0"
+        android:background="#EFE3B3"
+        android:CornerRadius="10px"
+        android:padding="15dp"
+        android:drawableStart="@drawable/p_icon"
+        android:hint=" insira sua senha"
+        app:cornerRadius="20dp"
+        android:layout_margin="20dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0442E2"
+            android:gravity="center"
+            android:drawableEnd="@drawable/y_circle"
+            android:text="Login"
+            android:textColor="#E9D80F"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
+
+        <Button android:id="@+id/btn_criar"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0442E2"
+            android:gravity="center"
+            android:drawableEnd="@drawable/y_circle"
+            android:text="Criar uma conta"
+            android:textColor="#E9D80F"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
+
+
+    </LinearLayout>
+        <CheckBox android:id="@+id/check_credencial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#1B1BCC"
+            android:text="Lembrar minhas credenciais"
+            android:textColor="#1B1BCC"
+            android:layout_marginStart="90dp"/>
+
+
+</LinearLayout>
