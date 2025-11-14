@@ -27,7 +27,7 @@ class Nota {
             const minuto = dataCompra.getMinutes().toString().padStart(2, '0');
 
             console.log("=== NOTA FISCAL ===");
-            console.log("Compra aprovada.");
+            console.log("Compra aprovada!");
             console.log(`Data: ${dia}/${mes}/${ano} às ${hora}:${minuto}\n`);
 
             console.log(`Produto: ${this.produto.nome}`);
