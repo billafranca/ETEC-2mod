@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:backgroundTint="#83C1FA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".imcActivity"
+    android:background="#F8F3F3"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="73dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="#F4D8D8"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/imc_a_sigla_para_ndice_de_massa_corporal_que_serve_para_avaliar_o_peso_do_ndividuo_em_rela_o_sua_altura_e_assim_indicar_se_est_dentro_do_peso_ideal_acima_ou_abaixo_do_peso_desejado_n_npreencha_os_campos_de_peso_e_altura_para_descobrir_o_seu_imc"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="30dp" />
+
+    <EditText
+        style="@style/form"
+        android:id="@+id/edt_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#FFFCFC"
+        android:hint="@string/imc_weight"
+        android:layout_marginRight="10dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        style="@style/form"
+        android:id="@+id/edt_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#FFFCFC"
+        android:hint="@string/imcheight"
+        android:minHeight="48dp" />
+
+    <Button android:id="@+id/btn_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/calcular"
+        android:layout_gravity="center"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        app:cornerRadius="5dp"
+        android:backgroundTint="#CCBD4E"
+        android:textSize="20sp"/>
+
+</LinearLayout>

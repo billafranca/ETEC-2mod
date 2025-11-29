@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Modular PAMI pedro atividade imc</string>
+    <string name="imc">imc</string>
+    <string name="descricao">Descricao</string>
+    <string name="imc_weight">imc weight</string>
+    <string name="imc_height">imc_height</string>
+    <string name="calcular">calcular</string>
+    <string name="imcheight">imc height</string>
+    <string name="imc_a_sigla_para_ndice_de_massa_corporal_que_serve_para_avaliar_o_peso_do_ndividuo_em_rela_o_sua_altura_e_assim_indicar_se_est_dentro_do_peso_ideal_acima_ou_abaixo_do_peso_desejado_n_npreencha_os_campos_de_peso_e_altura_para_descobrir_o_seu_imc">IMC é a sigla para Índice de Massa Corporal que serve para avaliar o peso do índividuo em relação à sua altura e assim indicar se está dentro do peso ideal, acima ou abaixo do peso desejado.\n\nPreencha os campos de peso e altura para descobrir o seu IMC</string>
+</resources>
