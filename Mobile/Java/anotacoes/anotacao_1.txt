@@ -1,0 +1,18 @@
+A primeira coisa que fazemos para criar um app, é desenhar a tela (layout)
+Layout simples podem ser desenhados com o LinearLayout, pois ele é mais facil de codar.
+Depois de desenhar a tela, temos que identificar os elementos que o usuario interagir, no caso todo o linear layout de dentro.
+Terminado o layout, vamos para a parte da codificacao.
+Temos que criar no caso do layout do imc um botao, e dois editText
+
+Para criar uma variavel no Kotlin que seja vazia, usamos:
+private lateinit var nome_da_variavel:Tipo
+
+no Java
+private Tipo nome_da_variavel
+
+Escopo da variavel: colocamos no comeco da classe para ser visivel em toda classe
+
+IMC é a sigla para Índice de Massa Corporal que serve para avaliar o peso do individuo em relação à sua altura e assim indicar se está dentro do peso ideal, acima ou abaixo do peso desejado.\n\n Preencha os campos de peso e altura para descobrir o seu IMC
+
+boa noite/
+boa noite 
